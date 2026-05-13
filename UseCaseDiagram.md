@@ -16,8 +16,8 @@ graph LR
     Professor --> ViewGrade
 
     %% Include 관계 (반드시 실행되어야 함)
-    InputGrade -.->|"<<include>>"| CheckProfessor
-    ViewGrade -.->|"<<include>>"| CheckProfessor
+    InputGrade -.->|" &lt; &lt;include &gt; &gt;"| CheckProfessor
+    ViewGrade -.->|" &lt; &lt;include &gt; &gt;"| CheckProfessor
 
     %% 스타일 설정
     style CheckProfessor fill:#f9f,stroke:#333,stroke-width:2px
