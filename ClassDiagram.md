@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
 
 &#x20;   class Add\_Sungjuk\_UI <<boundary>> {
