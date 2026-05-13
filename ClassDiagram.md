@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Add_Sungjuk_UI <<boundary>> {
         +성적입력_화면()
